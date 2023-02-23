@@ -1,38 +1,95 @@
-.App {
-  text-align: center;
+* {
+  font-family: Bodoni MT !important;
+  /* background: #1b1b23 !important; */
+  background: #1f1f2a !important;
+  color: ghostwhite !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+::-webkit-scrollbar {
+  width: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+::-webkit-scrollbar-track {
+  background: #1a1a23 !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+::-webkit-scrollbar-thumb {
+  background: #107df2 !important;
 }
 
-.App-link {
-  color: #61dafb;
+
+button {
+  font-size: 20px !important;
+  font-family: Bodoni MT !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+a {
+  font-family: Optima !important;
+  font-weight: 400 !important;
+  /* background-color: #1a1a23 !important; */
+}
+
+.active {
+  background-color: #1a1a23 !important;
+  border-radius: 20px !important;
+}
+
+li {
+  color: #107df2 !important;
+}
+
+li a {
+  color: #107df2 !important;
+}
+
+::placeholder {
+  color: rgb(197, 185, 185) !important;
+}
+
+input,
+textarea {
+  border-radius: 0% !important;
+  border: solid 1px #40405b !important;
+  outline: 0px !important;
+  --webkit-appearance: none;
+  box-shadow: none !important;
+  margin-top: 10px !important;
+  color: aqua !important;
+}
+
+input:focus {
+  border-color: #107df2 !important;
+}
+
+textarea:focus {
+  border-color: #107df2 !important;
+}
+
+#total:hover {
+  cursor: not-allowed !important;
+}
+
+.alert {
+  display: none !important;
+}
+
+.alert-flex {
+  display: flex !important;
+}
+
+#close {
+  color: #107df2 !important;
+  border: solid 1px #107df2 !important;
+}
+
+.white {
+  background-color: aliceblue !important;
+}
+
+.card {
+  border: solid 1px #107df2 !important;
+}
+
+.card-text {
+  color: #107df2 !important;
 }
